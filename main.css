@@ -1,0 +1,22 @@
+.canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #f6f6f6;
+}
+
+.tooltip {
+	position: absolute;
+	padding: 15px;
+	background: #6baed6;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 1.2;
+	opacity: 0;
+	left: -1000;
+	top: -1000;
+	border-radius: 5px;
+}
